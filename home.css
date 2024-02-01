@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+ background-color: rgb(206, 216, 225);
+}  
+
+ 
+#navbar{   
+    position: sticky; 
+    top:0px;
+    display: flex;  
+    z-index: 1;
+    /* border:2px solid black; */
+}  
+ #navbar>img{
+    position: relative; 
+    left: 5%;
+ }
+
+#navbar>ul{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative; 
+    left: 40%;
+    gap: 70px; 
+    /* border:2px solid black; */
+} 
+#navbar>ul>li{
+list-style: none;
+} 
+#navbar>ul>li>a{
+    text-decoration: none; 
+    color: black; 
+    /* padding: 25px ; */ 
+    font-size: 22px; 
+    font-family: 'Bricolage Grotesque', sans-serif;
+}  
+#navbar>ul>li>a:hover{
+    color: green; 
+    /* cursor: none; */
+}
+ 
+/* .................................... */
+#main-section{
+    display: flex; 
+    gap: 20%;
+} 
+#main-section-part-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: start;  
+    text-align: left;
+    gap: 5%; 
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 500%; 
+    position: relative;  top: 50px;
+}   
+#main-section-part-one>h1{
+    font-size: 78px; 
+    padding: 10px 80px; 
+    position: relative;
+    right: 5%; 
+    top: 05%;
+} 
+#main-section-part-one>h3{
+   
+   position: relative;
+   left: 4%; 
+   color: rgb(122, 121, 119);
+}
+#main-section-part-two{
+    height: 100%;
+    width: 100%;
+}
+
+
+.btn{
+    background-color: rgb(0, 177, 144);
+    color: rgb(236, 236, 235); 
+    height: 60px;
+    width: 250px; 
+    border-radius: 25px; 
+    border: none; 
+    font-size: 25px; 
+    position: relative; 
+    left: 5%;
+    
+} 
+#topAngle{
+    position: relative; 
+    left: 3%;  
+    top: 7%;
+} 
+#bottomAngle{
+    position: relative;
+    left: 477px; bottom: 10%;
+} 
+#mouse{
+    position: relative;
+    left: 530px; 
+    bottom: 15%;
+} 
+#img-one{
+position: relative; 
+top: 150px; 
+ right: 200px;
+}
+#img-two{
+position: relative; 
+bottom: 120px; 
+right: 90%;  
+}
+#img-three{
+position: relative; 
+bottom: 615px; 
+right: 300px;
+}
+#img-three{
+    width: 230%;
+    height: 40%; 
+    background: transparent;
+  } 
+  #img-one,#img-two{
+    width: 160%;
+    height: 70%; 
+    background: transparent;
+  } 

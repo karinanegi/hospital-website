@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+
+} 
+#navbar{
+    display: flex; 
+    /* border:2px solid black; */ 
+    position: absolute; 
+    top: 10px;
+}  
+ #navbar>img{
+    position: relative; 
+    left: 5%;
+ }
+
+#navbar>ul{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative; 
+    left: 110%;
+    gap: 60px; 
+    /* border:2px solid black; */
+} 
+#navbar>ul>li{
+list-style: none;
+} 
+#navbar>ul>li>a{
+    text-decoration: none; 
+    color: black; 
+    /* padding: 25px ; */ 
+    font-size: 22px; 
+    font-family: 'Bricolage Grotesque', sans-serif;
+}  
+#navbar>ul>li>a:hover{
+    color: green; 
+    /* cursor: none; */
+}
+ 
+#main-section{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    gap: 40px;  
+    /* border: 2px solid grey;  */
+    position: relative; top: 180px;
+    
+} 
+#main-section>h1{
+    font-size: 35px; 
+    color: rgb(4, 180, 136); 
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}  
+#main-section>p{
+    padding: 20px 100px; 
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+#doctors-customers-students{
+    display: flex;   
+    gap: 50px;
+} 
+#doctors-customers-students>div{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+     align-items: center; 
+     border: 2px solid grey;
+ padding: 15px 40px; 
+ border-radius: 10px; 
+ box-shadow: 20px 20px 50px 15px grey;
+}

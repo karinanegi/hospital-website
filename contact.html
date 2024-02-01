@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./contact.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&display=swap" rel="stylesheet">
+
+      <script>
+    function required(){
+   var a = parseInt(document.frm.I1.value);
+   var b = parseInt(document.frm.I2.value);
+   var c = parseInt(document.frm.I3.value); 
+   if(a==""||b==""||c=="") {
+    alert("All fields are mendantory!");
+   false;
+   } 
+   else{
+     return true;
+   }
+    }
+
+      </script>
+    <title>Contact Page</title>
+</head>
+<body>
+    
+        <nav id="navbar">  
+            <img src="./healthimages/logo (1).png" alt="image">
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+     
+        <form id="frm" onsubmit="required()"  action="thanks.html" >
+            <h1>Contact Form</h1> 
+           <h2> Name: </h2>
+            <input type="text" placeholder="Enter your name"  name="I1" required >   
+           <h2>Email:</h2> 
+            <input type="text" placeholder="Enter your email" name="I2" required > 
+           <h2>Message:</h2> 
+            
+            <textarea name="textarea" id="textarea"  placeholder="Enter your message" name="I3" required ></textarea> 
+           <input type="submit" value="submit"  >
+
+
+        
+</body>
+</html>
